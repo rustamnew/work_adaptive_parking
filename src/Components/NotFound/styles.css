@@ -1,0 +1,9 @@
+.notfound {
+	padding:20px;
+	margin-top:30px;
+	background:rgba(255,255,255,.5);
+	border-radius:5px;
+}
+.notfound h4 {
+	margin:0 0 20px 0 !important;
+}

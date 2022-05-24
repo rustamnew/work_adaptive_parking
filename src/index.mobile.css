@@ -1,0 +1,15 @@
+@media (min-width: 320px) and (max-width: 480px) {
+
+	* {box-sizing:border-box;}
+
+    .container .menu {
+        width:100% !important;
+    }
+
+
+    /* other */
+
+	.is-desktop, .is-desktop-flex {display:none !important;}
+	.is-mobile {display:block !important;}
+	.is-mobile-flex {display:flex !important;}
+}

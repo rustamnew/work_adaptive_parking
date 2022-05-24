@@ -1,0 +1,9 @@
+.map-container {
+	padding:25px 0;
+}
+.map-large {
+	position:relative;
+	width:100%;
+	height:800px;
+	background:#fff url('./Images/loading.svg') 50% 50% no-repeat;
+}

@@ -1,0 +1,90 @@
+.dg-container {
+	padding-top:25px;
+}
+.dg-container h4 {
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.dg-container h4 a {
+	display:flex;
+	align-items:center;
+	border:2px solid #000;
+	font-size:15px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+	padding:2px 12px 2px 6px;
+	border-radius:4px;
+}
+.dg-container h4 a:hover {
+	border-color:#999;
+	background:rgba(255,255,255,.8);
+	color:#00000080;
+}
+.dg-container h4 a:before {
+	content:'';
+	display:block;
+	width:24px;
+	height:24px;
+	margin-right:4px;
+	background:url(./images/add.svg) 0 0 no-repeat;
+}
+.dg-container h4 a:hover:before {
+	opacity:.5;
+}
+.dg-container .list {
+	margin:20px 0;
+}
+.dg-container .controls {
+	margin-bottom:10px;
+	display:flex;
+	justify-content:space-between;
+}
+.dg-container .controls div span {
+	color:#555;
+	margin-right:10px;
+}
+.dg-container .controls input, .dg-container .controls select {
+	padding:8px 10px;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+.dg-container .controls input {
+	width:400px;
+}
+.dg-container table {
+	width:100%;
+	border-collapse:collapse;
+}
+.dg-container table thead tr {
+	text-align:left;
+}
+.dg-container table thead th {
+	padding:10px;
+	white-space:nowrap;
+	border-bottom:3px solid #ccc;
+	background:#333;
+	color:#fff;
+	position:sticky;
+	top:0;
+}
+.dg-container table tbody:before {
+    content:"@";
+    display:block;
+    line-height:5px;
+    text-indent:-99999px;
+}
+.dg-container table tbody td {
+	padding:15px 10px;
+}
+.dg-container table tbody tr {
+	background:#fff;
+	border-bottom:5px solid #f4f3ef;
+}
+.dg-container table td a {
+	color:#000;
+}
+.dg-container td .img {
+	width:50px;
+}

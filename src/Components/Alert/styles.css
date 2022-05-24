@@ -1,0 +1,33 @@
+.container-error, .container-success, .container-info {
+	position:fixed;
+	top:10px;
+	left:50%;
+	margin-left:-230px;
+	width:460px;
+	padding:20px;
+	border-radius:4px;
+	background:#c00;
+	box-shadow:0 5px 15px rgba(37,48,62,.2);
+	color:#fff;
+	opacity:.01;
+	visibility:visible;
+	z-index:10004;
+}
+.container-success {
+	background:#498200;
+}
+.container-info {
+	background:#fffcc0;
+	color:#333;
+}
+.container-error, .container-success, .container-info {
+	opacity:1;
+	transition:opacity 300ms ease-in;
+    animation:showHide 300ms ease-in 3s forwards;
+    animation-fill-mode:forwards;
+}
+@keyframes showHide {
+    to {
+		opacity:.01;
+    }
+}

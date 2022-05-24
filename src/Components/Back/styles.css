@@ -1,0 +1,38 @@
+h4.back-title {
+	margin-top:25px;
+}
+h4.back-title, h4.back-title span {
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+h4.back-title span a {
+	margin-right:10px;
+}
+h4.back-title a.add {
+	display:flex;
+	align-items:center;
+	border:2px solid #000;
+	font-size:15px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+	padding:2px 12px 2px 6px;
+	border-radius:4px;
+}
+h4.back-title a.add:hover {
+	border-color:#999;
+	background:rgba(255,255,255,.8);
+	color:#00000080;
+}
+h4.back-title a.add:before {
+	content:'';
+	display:block;
+	width:24px;
+	height:24px;
+	margin-right:4px;
+	background:url(./images/add.svg) 0 0 no-repeat;
+}
+h4.back-title a.add:hover:before {
+	opacity:.5;
+}

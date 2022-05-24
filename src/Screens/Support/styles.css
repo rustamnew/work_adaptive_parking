@@ -1,0 +1,62 @@
+.form-container {
+	margin-top:20px;
+	margin-bottom:10px;
+	padding:20px;
+	border-radius:4px;
+	box-shadow:0 2px 2px rgba(204,197,185,.5);
+	background:#fff;
+	position:relative;
+	z-index:1;
+	zoom:1;
+	overflow:hidden;
+}
+.form-container form {
+	max-width:900px;
+}
+.form-container .cell {
+	margin:0 20px 20px 0;
+}
+.form-container .cell label span {
+	display:block;
+	margin:0 0 5px 0;
+	color:#777;
+}
+.form-container textarea {
+	display:block;
+	width:215px;
+	padding:10px;
+	border:1px solid #ccc5b9;
+	background:#fffcf5;
+	border-radius:4px;
+	transition:background-color 0.3s ease 0s;
+	box-shadow:none;
+}
+.form-container textarea:focus {
+    background-color:#fff;
+    box-shadow:none;
+    outline:0 !important;
+}
+.form-container textarea {
+	height:100px;
+	resize:none;
+}
+.form-container .messages {
+	margin-top:30px;
+	padding-top:20px;
+	border-top:1px solid #ccc;
+}
+.form-container .messagesupport {
+	background:#f2f2f2;
+}
+.form-container .messages .message {
+	margin:0 0 10px 0;
+	padding:10px;
+}
+.form-container .messages .message .date {
+	margin-bottom:5px;
+	font-size:90%;
+	color:#777;
+}
+.form-container .messages .message img {
+	width:200px;
+}
