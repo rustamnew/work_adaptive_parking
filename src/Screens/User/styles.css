@@ -93,3 +93,28 @@
 	background-size:5px 5px,5px 5px,1px 1.5em;
 	background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+	.form-container .buttons {
+		position: initial;
+		width: 100%;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 20px 10px;
+		border: none;
+		background: no-repeat;
+	}
+	.form-container .cell {
+		margin: 0 0 20px;
+	}
+	.form-container input, .form-container select, .form-container textarea {
+		width: 100%;
+	}
+	.form-container textarea.desc {
+		width: 100%;
+	}
+
+
+}

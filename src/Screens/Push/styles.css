@@ -94,3 +94,26 @@
 .examples .examples-text {
 	margin-top:5px;
 }
+
+@media (max-width: 768px) {
+	.examples {
+		flex-direction: column;
+    	width: 100%;
+	}
+	.examples .examples-ios, 
+	.examples .examples-android {
+		width: 100%;
+		margin: 0;
+	}
+	.examples .examples-ios {
+		margin-bottom: 20px;
+	}
+
+	.form-container input, .form-container select, .form-container textarea {
+		width: 100%;
+	}
+
+	.form-container .cell {
+		margin: 0 0 20px;
+	}
+}

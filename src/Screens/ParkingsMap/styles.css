@@ -7,3 +7,20 @@
 	height:800px;
 	background:#fff url('./Images/loading.svg') 50% 50% no-repeat;
 }
+
+
+@media (max-width: 768px) {
+	.map-container > h4{
+		display: flex;
+		justify-content: center;
+		left: 50%;
+		position: fixed;
+		top: 3%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.map-large {
+		height: 80%;
+	}
+
+}

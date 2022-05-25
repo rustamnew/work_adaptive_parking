@@ -10,6 +10,12 @@ import {ls} from '../../Globals/Localstorage';
 // logo
 import logo from '../../Images/inparking.logo.svg';
 
+// hamburger menu icon
+import hamburgerMenuIcon from '../../Images/hamburger.icon.svg';
+
+// close menu icon
+import closeMenuIcon from '../../Images/close.svg';
+
 // styles
 import './styles.css';
 
@@ -28,6 +34,17 @@ const Template = (props) => {
 		e.preventDefault();
 		close();
 	}
+
+	const openMenu = (e) => {
+		let menu = document.querySelector('.menu');
+		menu.classList.add('active')
+	}
+	const closeMenu = (e) => {
+		let menu = document.querySelector('.menu');
+		menu.classList.remove('active')
+	}
+
+
 	useEffect(() => {
 		const user = ls('user');
 		if (user === null) {
@@ -37,7 +54,14 @@ const Template = (props) => {
 	}, []);
 	return (
 		<div className="container">
+			<div className="menu-open" onClick={openMenu}>
+				<img src={hamburgerMenuIcon} alt="menu-icon"/>
+			</div>
+
 			<div className="menu">
+				<div className="menu-close" onClick={closeMenu}>
+					<img src={closeMenuIcon} alt="menu-icon"/>
+				</div>
 				<img src={logo} alt="InParking" />
 				<ul>
 					<li><b>Диспетчерская</b></li>

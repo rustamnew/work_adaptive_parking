@@ -88,3 +88,48 @@
 .dg-container td .img {
 	width:50px;
 }
+
+
+
+@media (max-width: 768px) {
+	.dg-container {
+		padding-top: 0;
+	}
+	.dg-container > h4 {
+		display: flex;
+		justify-content: center;
+
+		position: fixed;
+		top: 3%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.dg-container > h4 a{
+		margin-left: 10%;
+	}
+	.dg-container .controls {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+	.dg-container .controls div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.dg-container .controls input {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.dg-container .list {
+		margin: 0;
+	}
+	.dg-container table thead th {
+		text-align: center;
+	}
+	.dg-container table tbody td {
+		text-align: center;
+	}
+}

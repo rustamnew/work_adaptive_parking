@@ -89,3 +89,24 @@
 	opacity:.8;
 	cursor:pointer;
 }
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+	.form-container .cell {
+		margin: 0 0 20px;
+	}
+
+	.form-container .cell-oneline .cell:not:first-child{
+		margin-left: 4%;
+	}
+
+	.form-container input.double {
+		width: 100%;
+	}
+}

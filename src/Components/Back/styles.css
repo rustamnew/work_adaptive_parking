@@ -36,3 +36,21 @@ h4.back-title a.add:before {
 h4.back-title a.add:hover:before {
 	opacity:.5;
 }
+
+
+@media (max-width: 768px) {
+	h4.back-title {
+		display: flex;
+		justify-content: center;
+		left: 50%;
+		position: fixed;
+		top: 3%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		margin-top: 0;
+	}
+	h4.back-title a.add{
+		margin-left: 20px;
+    	margin-right: -20px;
+	}
+}
